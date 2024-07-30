@@ -876,6 +876,16 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "PatientDB.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/PatientDB.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PatientDB.Common.dll": {}
+        }
+      },
       "PatientDB.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -2302,6 +2312,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "PatientDB.Common/1.0.0": {
+      "type": "project",
+      "path": "../PatientDB.Common/PatientDB.Common.csproj",
+      "msbuildProject": "../PatientDB.Common/PatientDB.Common.csproj"
+    },
     "PatientDB.Entities/1.0.0": {
       "type": "project",
       "path": "../PatientDB.Entities/PatientDB.Entities.csproj",
@@ -2313,6 +2328,7 @@
       "Microsoft.EntityFrameworkCore >= 8.0.6",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.6",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 8.0.4",
+      "PatientDB.Common >= 1.0.0",
       "PatientDB.Entities >= 1.0.0"
     ]
   },
@@ -2344,6 +2360,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "C:\\Users\\User\\source\\repos\\PatientDB\\PatientDB.Common\\PatientDB.Common.csproj": {
+              "projectPath": "C:\\Users\\User\\source\\repos\\PatientDB\\PatientDB.Common\\PatientDB.Common.csproj"
+            },
             "C:\\Users\\User\\source\\repos\\PatientDB\\PatientDB.Entities\\PatientDB.Entities.csproj": {
               "projectPath": "C:\\Users\\User\\source\\repos\\PatientDB\\PatientDB.Entities\\PatientDB.Entities.csproj"
             }

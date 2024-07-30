@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\PatientDB.Common\PatientDB.Common.csproj" />
     <ProjectReference Include="..\PatientDB.Entities\PatientDB.Entities.csproj" />
   </ItemGroup>
 
